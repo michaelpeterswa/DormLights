@@ -1,7 +1,7 @@
 # DormLights
 > Arduino/NodeMCU/ESP8266 program that combines both amplitude and frequency of an audio track into a "Lit AF" package.
 
-This program takes input from the microphone and processes it with arduinoFFT and the Adafruit Volume library. The color of the lights displays peak frequency data while the brightness is shown with volume.
+This program takes input from the microphone and processes it with arduinoFFT, FastLED, and the Adafruit Volume calculations. The color of the lights displays peak frequency data while the brightness is shown with volume.
 
 ## Installation
 
@@ -11,6 +11,7 @@ Arduino/NodeMCU/ESP8266:
 git clone https://github.com/michaelpeterswa/DormLights.git
 ```
 Or download the file manually.
+Download up-to-date Arduino IDE and sync FastLED and arduinoFFT libraries.
 Open in Arduino IDE, compile, and flash board
 
 ## Release History
