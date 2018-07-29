@@ -6,6 +6,10 @@ This program takes input from the microphone and processes it with arduinoFFT, F
 ### vol_from_center.ino
 This program takes input from the microphone and processes it with FastLED and the Adafruit Volume calculations. The lights display from the center with the length and color dictated by peak volume levels.
 
+## Layout
+
+![alt text](https://github.com/michaelpeterswa/DormLights/blob/master/img/DormLights.PNG "Circuit Layout")
+
 ## Installation
 
 Arduino/NodeMCU/ESP8266:
